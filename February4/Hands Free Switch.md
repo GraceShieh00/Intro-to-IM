@@ -12,7 +12,6 @@ The project started with a simple series circuit. As coins are metals, they’re
 	
 As I proceed on experimenting with the circuits. I thought of the parallel circuits discussed in class, and decided to try building one. Picture 3 shows the improved, final version of the model, which is connected by 3 parallel circuits. Every circuit is tied to one piggy bank specifically designed to fit the size of a coin (20 cent, 50 cent, or 1 euro) with a colored light bulb connected. Therefore, when one deposits money in the containers, different values will trigger different colors of light reaction. 
 ![](IMG_2330.jpg)	
-![](IMG_2758.jpg)
-![](IMG_7111.MOV)
+![](IMG_3758.jpg)
 
 Throughout the process, I was surprised that I enjoyed making the model, and couldn’t stop thinking about how to improve upon them. This is my first time experimenting with wires and circuits, and I’m excited for future projects. For this design, further exploration could be on recycle bins and trash cans, cutlery storage in restaurants, and other places where clear organization and grouping would be beneficial, adding light and colors to these daily actions!
