@@ -15,4 +15,5 @@ As I proceed on experimenting with the circuits. I thought of the parallel circu
 ![](IMG_3758.jpg)
 
 Throughout the process, I was surprised that I enjoyed making the model, and couldn’t stop thinking about how to improve upon them. This is my first time experimenting with wires and circuits, and I’m excited for future projects. For this design, further exploration could be on recycle bins and trash cans, cutlery storage in restaurants, and other places where clear organization and grouping would be beneficial, adding light and colors to these daily actions!
-![Click here](https://youtu.be/h4e-SG17m5Y) to view a video of the project!
+
+[Click here](https://youtu.be/h4e-SG17m5Y) to view a video of the project!
