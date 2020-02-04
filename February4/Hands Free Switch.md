@@ -8,6 +8,7 @@ For my project, I wanted to create something that is not only visually appealing
 	
 The project started with a simple series circuit. As coins are metals, they’re able to connect two wires and allow the energy to flow freely through. Picture 1 is the first product, with wires on both ends of the piggy bank opening, allowing the light bulb to light up everytime a coin passes through and connects the wires. As I worked, I realized that by putting the wires below the surface, I was able to achieve the same result, but with a more aesthetic presentation. Picture 2 shows the model after such alteration.
 ![](IMG_2137.jpg)
+![](IMG_3872.jpg)
 	
 As I proceed on experimenting with the circuits. I thought of the parallel circuits discussed in class, and decided to try building one. Picture 3 shows the improved, final version of the model, which is connected by 3 parallel circuits. Every circuit is tied to one piggy bank specifically designed to fit the size of a coin (20 cent, 50 cent, or 1 euro) with a colored light bulb connected. Therefore, when one deposits money in the containers, different values will trigger different colors of light reaction. 
 ![](IMG_2330.jpg)	
