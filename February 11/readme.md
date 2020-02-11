@@ -12,8 +12,8 @@ This being my first time programming and second time creating with a circuit boa
  
 Attached below are the schematic of my circuit and pictures related to it. [Click this link](https://youtu.be/VHSOAZEhS00) to view a video of the final result!
 
-![](project2scan.png)
+![](project2.jpg)
 
-![](IMG_72972.jpg)
+![](IMG_7297_2.jpg)
 
 ![](IMG_7299.jpg)
