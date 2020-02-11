@@ -10,10 +10,10 @@ When one presses the green button, the green light blinks quickly; when one pres
 
 This being my first time programming and second time creating with a circuit board, the project started roughly. For instance, I didn’t fully understand the language of arduino until some kind, generous classmates spent time reviewing and answering my questions, connecting what we learned in class with application. Another example is when I wanted to incorporate more than one button, yet didn’t know how to write them in the program, as my pushbutton and pushbutton2 commands kept receiving errors. I ended up searching online and reading responses from Arduino’s page as well as online videos, and simply enough, I needed to label pushbutton1 before I can label pushbutton2, and the issue thus resolved. A lot of errors and modifications occurred throughout, yet with the help of peers, online resources, and occasional spontaneous enlightenment, I’m able to grow in familiarity with the program and the board to create this project. I ended up enjoying the process a lot, and I look forward to more to come!
  
-Attached below are the schematic of my circuit and pictures related to it. Click this link to view a video of the final result!
+Attached below are the schematic of my circuit and pictures related to it. [Click this link](https://youtu.be/VHSOAZEhS00) to view a video of the final result!
 
-![](project 2 scan.png)
+![](project2scan.png)
 
-![](IMG_7297 2.jpg)
+![](IMG_72972.jpg)
 
 ![](IMG_7299.jpg)
