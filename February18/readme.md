@@ -12,3 +12,5 @@ Included below are pictures of the schematics of this project. It’s exciting s
 
 ![](IMG_7378.jpg)
 ![](IMG_7379.jpg)
+
+![](IMG_7381.jpg)
