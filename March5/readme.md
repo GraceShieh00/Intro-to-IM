@@ -1,4 +1,5 @@
 **Midterm Project**
+
 For the midterm project, we’re asked to create a project that showcases the skills and knowledge we’ve learned from the past few weeks. I decided to create a music box, or a musical displaying toy that would combine multiple functions of the Arduino that we learned to present as entertainment. In the end, I decided to build the project as a castle or a fort, with a character overlooking from the top of the castle. There are two breadboards, one longer one in the front, and one in the back with the lcd board attached. Inside the fort is the arduino redboard, which is secured by the two foams that closely set it between tightly. 
 
 In the picture below, the schematics of the project is provided, and it provides an idea of the inputs and outputs of the circuit. Ideally, in the project, the button controls the blue light, which can be turned on and off when pressed. This is completed by the code that prestates the initial stages of the buttons, which allows an LED to remain turned on or off. The LED is soldered, which allows it to be longer and is decorated on top of the wall. There is also a servo motor, which is controlled by a potentiometer. The potentiometer will rotate the motor, which is decorated as a character that is overlooking the castle of the circuit. The buzzer is also attached on the longer breadboard, which will play you are my sunshine when the light resistor is triggered when it’s dark. An lcd screen is attached to the smaller breadboard, which displays hi sunshine <3. This is my first time working with a LCD screen, and it is encouraging to find that it is not as difficult as thought when I follow the instructions on the Arduino website. 
@@ -13,4 +14,4 @@ Included below are images of the project, its front, back, and when it’s still
 ![](IMG_7554.png)
 ![](IMG_7561.png)
 ![](IMG_7563.png)
-[Click this link](https://youtu.be/LYy1XG7fXY4)
+[Click this link](https://youtu.be/LYy1XG7fXY4)to see the project!
