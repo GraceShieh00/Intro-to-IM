@@ -20,18 +20,18 @@ int potpin = A1;  // analog pin used to connect the potentiometer
 int val;
 
 const int speakerPin = 9;
-int photocellPin = A0;     // the cell and 10K pulldown are connected to a0
+int photocellPin = A0;     // the cell and 10K pulldown are connected to A0
 int photocellReading;     // the analog reading from the analog resistor divider
-int yellowLED = 7;
-int yellowswitch = 8;
-boolean oldyellowSwitchState = LOW;
-boolean newyellowSwitchState = LOW;
+int blueLED = 7;
+int blueswitch = 8;
+boolean oldblueSwitchState = LOW;
+boolean newblueSwitchState = LOW;
 
-boolean yellowLEDstatus = LOW;
+boolean blueLEDstatus = LOW;
 
 int thisNote;
 
-// notes in the melody:
+// notes in the melody, plays melody of you are my sunshine:
 int melody[] = {
   0, NOTE_G3, NOTE_C4, NOTE_D4, NOTE_E4, NOTE_E4, 0, NOTE_E4, NOTE_D4, NOTE_E4,
   NOTE_C4, NOTE_C4, 0, NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_A4, NOTE_G4, NOTE_F4,
@@ -40,7 +40,7 @@ int melody[] = {
   NOTE_D4, NOTE_D4, NOTE_E4, NOTE_C4
 };
 
-// note durations: 4 = quarter note, 8 = eighth note, etc.:
+// rhythm for music; 4- quarter note, 8- eigth note
 int noteDurations[] = {
   8, 8, 8, 8, 4, 4, 8, 8, 8, 8,
   4, 4, 8, 8, 8, 8, 4, 4, 4, 4,
@@ -48,14 +48,14 @@ int noteDurations[] = {
   8, 4, 4, 8, 8, 8, 8, 4, 8, 8,
   4, 8, 8, 2
 };
-// melody originally planned for second song when the light sensor is detecting under 400/ when it's dark
+// melody originally planned for second song when the light sensor is detecting under 400/ when it's darker
 int melody1[] = {
   NOTE_G4, NOTE_E4, NOTE_G4, NOTE_G4, NOTE_E4, NOTE_G4, NOTE_G4, NOTE_E4, NOTE_A4, NOTE_G4,
   NOTE_E4, NOTE_F4, NOTE_D4, NOTE_F4, NOTE_F4, NOTE_D4, NOTE_G4, NOTE_F4, NOTE_E4, NOTE_D4,
   NOTE_C4, NOTE_C4
 };
 
-// note durations: 4 = quarter note, 8 = eighth note, etc.:
+// rhythm of the music
 int noteDurations1[] = {
   4, 4, 8, 8, 4, 8, 8, 8, 8, 4,
   4, 4, 4, 8, 8, 4, 8, 8, 8, 8,
@@ -64,57 +64,56 @@ int noteDurations1[] = {
 void setup() {
   // set up the LCD's number of columns and rows; code from https://www.arduino.cc/en/Tutorial/HelloWorld
   lcd.begin(16, 2);
-  // Print a message to the LCD.
+  // Print a message "hi sunshine" to the LCD.
   lcd.print("Hi sunshine :)");
   Serial.begin(9600);
-  pinMode(yellowLED, OUTPUT);
-  digitalWrite(yellowLED, LOW);
+  
+  pinMode(blueLED, OUTPUT);
+  digitalWrite(blueLED, LOW);
 
-  pinMode(yellowswitch, INPUT);
+  pinMode(blueswitch, INPUT);
   myservo.attach(6);
 
 
 }
 
 void loop() {
-  // no need to repeat the melody.
+ 
   val = analogRead(potpin);            // reads the value of the potentiometer (value between 0 and 1023)
   val = map(val, 0, 1023, 0, 180);     // scale it to use it with the servo (value between 0 and 180)
   myservo.write(val);                  // sets the servo position according to the scaled value
   delay(1);
 
-  newyellowSwitchState = digitalRead(yellowswitch);
+// controls the switch; allows the button to turn on and off light when pushed and stays in the state ex. stays light up until button pushed again
+  newblueSwitchState = digitalRead(blueswitch);
   delay(1);
-  if ( newyellowSwitchState != oldyellowSwitchState )
+  if ( newblueSwitchState != oldblueSwitchState )
   {
     // has the button switch been closed?
-    if ( newyellowSwitchState == HIGH )
+    if ( newblueSwitchState == HIGH )
     {
-      if ( yellowLEDstatus == LOW ) {
-        digitalWrite(yellowLED, HIGH);
-        yellowLEDstatus = HIGH;
+      if ( blueLEDstatus == LOW ) {
+        digitalWrite(blueLED, HIGH);
+        blueLEDstatus = HIGH;
       }
       else                    {
-        digitalWrite(yellowLED, LOW);
-        yellowLEDstatus = LOW;
+        digitalWrite(blueLED, LOW);
+       blueLEDstatus = LOW;
       }
     }
 
-
+//reads the brightness of the photo resistor and plays music in respond to brightness
     photocellReading = analogRead(photocellPin);
 
     for (int thisNote = 0; thisNote < 45; thisNote++) {
-      //if (photocellReading < 10)
-      //    Serial.println(" - Dark");
-      //    noTone(speakerPin);
+      
       if (photocellReading < 400) {
         Serial.println(photocellReading);
         for (int thisNote = 0; thisNote < 13; thisNote++) {
           int noteDuration1 = 1000 / noteDurations1[thisNote];
           tone(speakerPin, melody1[thisNote], noteDurations1);
         }
-        //        delay(pauseBetweenNotes);
-        //        noTone(speakerPin);}
+      
         if (photocellReading > 400 && photocellReading < 500) {
           Serial.println(photocellReading);
           noTone(speakerPin);
@@ -128,18 +127,10 @@ void loop() {
 
             int pauseBetweenNotes = noteDuration * 1.50;
             delay(pauseBetweenNotes);
-            //        noTone(speakerPin);
-
+            
           }
         }
       }
-
-
-
-
-      ///  Serial.print("Analog reading = ");
-      ///  Serial.print(photocellReading);     // the raw analog reading
-      // We'll have a few threshholds, qualitatively determined
 
     }
 
