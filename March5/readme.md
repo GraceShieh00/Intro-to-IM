@@ -7,9 +7,9 @@ Even though this project uses mostly topics and elements we have covered in clas
 
 Included below are images of the project, its front, back, and when it’s still in the process of building. I’ve also included a sketch I did when I was about to start building the physical product. 
 
-![](IMG_7544.jpg)
-![](IMG_7547.jpg)
-![](IMG_7553.jpg)
-![](IMG_7554.jpg)
-![](IMG_7561.jpg)
-![](IMG_7563.jpg)
+![](IMG_7544.png)
+![](IMG_7547.png)
+![](IMG_7553.png)
+![](IMG_7554.png)
+![](IMG_7561.png)
+![](IMG_7563.png)
