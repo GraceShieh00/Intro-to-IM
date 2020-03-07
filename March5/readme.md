@@ -23,10 +23,10 @@ Included below are images of the project (its front and side).
 
 
 
-[Click this link](https://youtu.be/nNhU6NgrmtU)to see the project when it is sunny.
+[Click this link](https://youtu.be/nNhU6NgrmtU) to see the project when it is sunny.
 
-[Click this link](https://youtu.be/0AeN56nquh0)to see the project when it is rainy.
+[Click this link](https://youtu.be/0AeN56nquh0) to see the project when it is rainy.
 
-[Click this link](https://youtu.be/tXTydJKWkEQ)to see the project's other functions.
+[Click this link](https://youtu.be/tXTydJKWkEQ) to see the project's other functions.
 
-Lastly, if interested, [click this link](https://youtu.be/Qfss7bGcJew)to see the project when it is still in the process of being build.
+Lastly, if interested, [click this link](https://youtu.be/Qfss7bGcJew) to see the project when it is still in the process of being build.
