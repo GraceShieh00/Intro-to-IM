@@ -6,7 +6,7 @@ The first one I created is a simple visualization of a text file. Here, numerica
 ![](circle.png)
 
 The second project I created is modified based on an example data code on processing.org. The code was difficult to understand at first, as it incoporates various elements. In the end, I played around with it, adding text, different files, color changes etc. This is also a step from using the numerical numbers from a text file above to using tables in a csv file. 
-Check out this video and some picture of it!
+Check out [this video](https://youtu.be/3MSwNENnKdQ) and some picture of it!
 ![](bubble.png)
 
 This last project was the one that I wanted to make the most- a text generator. I was stuck on it for quite a bit, as I couldn't use the way I retrieve information from the floats/ numbers and directly convert them into strings and texts. There are some additional steps that needed to be taken, in addition to the random word order that comes up. In the end, with youtube tutorials and more researching, I was able to figure out what I was missing and create this generator. I see this one as a start, and I'm definitely interested in making it neater so that I could potentially go to it for inspirations when I'm wriitng!
