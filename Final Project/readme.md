@@ -9,3 +9,9 @@ The code in this project is not very difficult, but does involve some detail sor
 Included below are some pictures of the project and [a video](https://youtu.be/iGKFMwfQLCk) of the project working. Intro to IM challenged me to think more critically- not simply as an artist but with logic and attention to details. If I were to summarize my experience in this class, it would be one that is bittersweet but rewarding, and one that not only challenges my thinking, but inspired me to keep on learning and trying while not being afraid to ask for help along the way. This was a semester full of gratitude for me, and this class is no exception of that. 
 
 ![](11.png)
+![](22.png)
+![](66.png)
+![](55.png)
+![](44.png)
+![](33.png)
+A bonus picture of the gallery 'under construction'- when it's still work in process! Refer to the gallery for more pictures- before and after the modification!
