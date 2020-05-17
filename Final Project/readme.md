@@ -14,4 +14,4 @@ Included below are some pictures of the project and [a video](https://youtu.be/i
 ![](55.png)
 ![](44.png)
 ![](33.png)
-A bonus picture of the gallery 'under construction'- when it's still work in process! Refer to the gallery for more pictures- before and after the modification!
+A bonus picture of the gallery 'under construction'- when it's still work in process! Refer to the program for more pictures- before and after the modification!
